@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@500&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    background: #f3f8fe;
+    color: #1c2b62;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+.component {
+    max-width: 562px;
+    max-height: 607px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 50px;
+    border-radius: 25px;
+}
+.component__fbx {
+    display: flex;
+    gap: 16px;
+}
+.component__avatar {
+    background-image: url("../img/Ellipse\ 1.jpg");
+    width: 114px;
+    height: 114px;
+}
+.component__content {
+    max-width: 332px;
+    display: flex;
+    flex-direction: column;
+}
+.component__name {
+    font-family: "Merriweather", serif;
+    font-size: 26px;
+    font-weight: 700;
+
+    margin-bottom: 8px;
+}
+.component__spec {
+    margin-bottom: 28px;
+}
+.component__stats {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 28px;
+}
+.component__stats > span {
+    padding-left: 36px;
+    height: 32px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.component__stats > span:nth-child(1) {
+    background: url("../img/Frame\ 1.svg") no-repeat;
+}
+.component__stats > span:nth-child(2) {
+    background: url("../img/Frame\ 2.svg") no-repeat;
+}
+.component__stats > span:nth-child(3) {
+    background: url("../img/Frame\ 3.svg") no-repeat;
+}
+.component__text {
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+.component__btn {
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid #c4cadf;
+    max-width: 111px;
+    height: 44px;
+    transition: all ease 0.5s;
+    background-color: transparent;
+}
+.component__btn:hover {
+    background-color: #1c2b62;
+    color: #c4cadf;
+}
