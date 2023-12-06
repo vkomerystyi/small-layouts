@@ -1,0 +1,117 @@
+/* --------- ОБНУЛЕННЯ СТИЛІВ ТЕГІВ ------------ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1;
+}
+/* --------- ОБНУЛЕННЯ СТИЛІВ ТЕГІВ ------------ */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: rgba(255, 106, 149, 0.1);
+  min-width: 100vw;
+  min-height: 100vh;
+  width: 100%;
+  color: #202142;
+  position: relative;
+}
+.box {
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  background: #ff6a95;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -50%);
+}
+.box__profile {
+  width: 600px;
+  height: 160px;
+  border-radius: 10px;
+  box-shadow: 0px 16px 45px -15px rgba(2, 5, 132, 0.25);
+  background-color: White;
+  padding: 30px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+
+  display: flex;
+  align-items: center;
+
+  gap: 30px;
+}
+.box__avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.box__info {
+}
+.box__info h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+.box__info p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.box__btn {
+  margin-left: auto;
+  background-color: #202142;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 16px;
+
+  font-weight: 500;
+  line-height: 24px;
+  border-radius: 10px;
+}
+.box__btn img {
+  margin-right: 10px;
+}
