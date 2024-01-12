@@ -19,7 +19,7 @@ body {
   height: 497px;
   border-radius: 20px;
   box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
-  padding: 16px 16px 0 16px;
+  padding: 16px;
 
   display: flex;
   flex-direction: column;
@@ -45,7 +45,7 @@ body {
 }
 .qr-code__text {
   padding: 0 16px;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 .qr-code__text p {
   font-family: Outfit;
