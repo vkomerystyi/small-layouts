@@ -6,6 +6,7 @@
 body {
   font-family: 'Outfit', sans-serif;
   color: #1f314f;
+  background: #d5e1ef;
 }
 .wrapper {
   display: flex;
