@@ -16,12 +16,14 @@ body {
 }
 .qr-code {
   width: 320px;
+  height: 497px;
   border-radius: 20px;
   box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
   padding: 16px;
 
   display: flex;
   flex-direction: column;
+  background: #ffffff;
 }
 .qr-code__img {
   width: 288px;
