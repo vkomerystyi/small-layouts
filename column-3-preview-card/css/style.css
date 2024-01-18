@@ -70,7 +70,7 @@ body {
   opacity: 0.75;
 
   flex-grow: 1;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .column__link {
   width: 146px;
@@ -110,3 +110,24 @@ body {
 }
 
 /* ---- media ---- */
+@media (max-width: 768px) {
+  .wrapper {
+    max-width: 375px;
+    justify-content: center;
+    align-items: center;
+  }
+  .column:nth-child(1) {
+    border-radius: 8px 8px 0px 0px;
+    background: #e28625;
+  }
+  .column:nth-child(2) {
+    background: #006971;
+  }
+  .column:nth-child(3) {
+    border-radius: 0px 0px 8px 8px;
+    background: #004140;
+  }
+  .column {
+    flex: 0 0 327px;
+  }
+}
