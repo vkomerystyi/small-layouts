@@ -20,8 +20,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .wrapper {
+  position: absolute;
+  top: 171px;
   max-width: 920px;
   min-height: 500px;
   display: flex;
